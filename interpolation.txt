@@ -1,0 +1,24 @@
+% Create a 3-D sample grid and corresponding values
+[X,Y,Z] = ndgrid(1:5);
+V = X.^2 + Y.^2 +Z;
+
+% Select a 2-D sample from the grid. In this case, the third column of samples.
+x = X(:,3,:);
+z = Z(:,3,:);
+v = V(:,3,:);
+
+% Reduce x, z, and v down to 2-D arrays using the squeeze function.
+x = squeeze(x);
+z = squeeze(z);
+v = squeeze(v);
+
+% Interpolate the 2-D slice over a finer grid of query points.
+[Xq,Zq] = ndgrid(1:0.5:5);
+Vq = interpn(x,z,v,Xq,Zq);
+
+% Plot the results.
+figure
+surf(Xq,Zq,Vq);
+xlabel('Xq');
+ylabel('Zq');
+zlabel('Vq');

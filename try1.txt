@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>GFG- Store Data</title>
+</head>
+<body>
+	<center>
+		<h1>Storing Form data in Database</h1>
+		<form action="try2.php" method="post">
+			
+<p>
+			<label for="ProductID">ProductID:</label>
+			<input type="text" name="ProductID" id="ProductID">
+			</p>
+			
+<p>
+			<label for="ProductCode">Product Code:</label>
+			<input type="text" name="ProductCode" id="ProductCode">
+			</p>
+
+<p>
+			<label for="ProductName">Product Name:</label>
+			<input type="text" name="ProductName" id="ProductName">
+			</p>
+
+<p>
+			<label for="Description">Description:</label>
+			<input type="text" name="Description" id="Description">
+			</p>
+
+<p>
+			<label for="BarCode">Bar Code:</label>
+			<input type="text" name="BarCode" id="BarCode">
+			</p>
+<p>
+			<label for="ColorID">Color ID:</label>
+			<input type="text" name="ColorID" id="ColorID">
+			</p>
+<p>
+			<label for="BrandID">Brand ID:</label>
+			<input type="text" name="BrandID" id="BrandID">
+			</p>
+<p>
+			<label for="CategoryID">Category ID:</label>
+			<input type="text" name="CategoryID" id="CategoryID">
+			</p>
+<p>
+			<label for="UnitID">Unit ID:</label>
+			<input type="text" name="UnitID" id="UnitID">
+			</p>
+<p>
+			<label for="DepartmentID">Department ID:</label>
+			<input type="text" name="DepartmentID" id="DepartmentID">
+			</p>
+<p>
+			<label for="OpeningQty">Opening Quantity:</label>
+			<input type="text" name="OpeningQty" id="OpeningQty">
+			</p>
+<p>
+			<label for="SalePrice">Sale Price:</label>
+			<input type="text" name="SalePrice" id="SalePrice">
+			</p>
+<p>
+			<label for="PurchasePrice">Purchase Price:</label>
+			<input type="text" name="PurchasePrice" id="PurchasePrice">
+			</p>
+<p>
+			<label for="MaxQty">Max Quantity:</label>
+			<input type="text" name="MaxQty" id="MaxQty">
+			</p>
+
+<p>
+			<label for="MinQty">Min Quantity:</label>
+			<input type="text" name="MinQty" id="MinQty">
+			</p>
+			
+<p>
+			<label for="Status">Status:</label>
+			<input type="text" name="Status" id="Status">
+			</p>
+
+			<input type="submit" value="Submit">
+		</form>
+	</center>
+</body>
+</html>
